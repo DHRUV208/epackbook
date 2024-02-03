@@ -1,0 +1,1 @@
+export const ADD_SUBSCRIPTION_PLAN ='/subscription/add'

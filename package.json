@@ -1,0 +1,91 @@
+{
+  "name": "epackbook-new-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/joy": "^5.0.0-alpha.85",
+    "@mui/lab": "^5.0.0-alpha.134",
+    "@mui/material": "^5.14.0",
+    "@mui/x-data-grid": "^6.9.1",
+    "@mui/x-data-grid-premium": "^6.9.1",
+    "@mui/x-date-pickers": "^6.9.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.41.1",
+    "axios": "^1.4.0",
+    "data-uri-to-buffer": "^6.0.1",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "formik": "^2.4.3",
+    "image-compressor": "^2.0.3",
+    "lodash": "^4.17.21",
+    "randexp": "^0.5.3",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-google-charts": "^4.0.0",
+    "react-icons": "^4.10.1",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.1.2",
+    "react-scripts": "^5.0.1",
+    "react-signature-canvas": "^1.0.6",
+    "react-slick": "^0.29.0",
+    
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.2.3",
+    "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1",
+    "underscore": "^1.13.6",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write ./**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^2.8.8",
+    "react-router-dom": "^6.13.0"
+  }
+}
